@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 600px) {
+.visible-scrollbar,
+        .invisible-scrollbar,
+        .mostly-customized-scrollbar {
+            display: block;
+            width: 400px;
+            overflow: auto;
+        }
+
+        .invisible-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .mostly-customized-scrollbar::-webkit-scrollbar {
+            width: 5px;
+            height: 8px;
+            background-color: #aaa;
+        }
+
+        .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+            background: #000;
+        }
+
+}
